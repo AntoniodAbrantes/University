@@ -1,0 +1,4 @@
+a = float(input('Digite o preço do produto: '))
+b = float(input('Digite a quantidade adquirida: '))
+c = a * b 
+print('O TOTAL R$: ', c)
