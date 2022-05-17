@@ -1,0 +1,14 @@
+sl =  float(input('Digite seu sálario: '))
+
+if sl < 300:
+    newsl = 300 * 1.45
+    print('Seu novo salário é', newsl)
+
+elif sl >299 and sl<600:
+    newsl = sl * 1.25
+    print('Seu novo salário é', newsl)
+
+elif sl >299 and sl<600:
+    newsl = sl * 1.15
+    print('Seu novo salário é', newsl)
+    
