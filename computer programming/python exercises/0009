@@ -1,0 +1,18 @@
+print('----==== LISTA DE PRODUTOS ====----')
+print('*1 - PIZZA                        *')
+print('*2 - HAMBURGUER                   *')
+print('*3 - REFRIGERANTE                 *')
+print('*4 - BATATA FRITA                 *')
+print('===================================')
+cod = int(input('Digite o código do produto: '))
+
+if cod == 1:
+    print('Você comprou pizza! ')
+elif cod == 2:
+    print('Você comprou Hamburguer! ')
+elif cod == 3:
+    print('Você comprou Refrigerante! ')
+elif cod == 4:
+    print('Você comprou Batata Frita')
+else: 
+    print('Não existe esse código na lista :(')
