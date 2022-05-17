@@ -1,0 +1,7 @@
+sigla = input('Digite a sigla do seu estado: ')
+
+if sigla == 'PE' or sigla == 'PB':
+    print('Você é do nordeste!')
+
+if sigla == 'SP' or sigla == 'RJ':
+    print('Você é do sudeste!')
